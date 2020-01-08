@@ -28,21 +28,21 @@ p:nth-child(4) {
 }
 @keyframes lul {
   from{
-    left: 0px;
+    transform-origin: center;
     text-shadow: 1px 1px 10px gray;
 
       25% {
-        left: 50px;
+        transform: translateX(50px);
         text-shadow: 1px 1px 10px black;
 
       }
         75% {
-          left: 50px;
+          transform: translateX(50px);
           text-shadow: 1px 1px 10px black;
 
         }
   to{
-    left: 0px;
+    transform: translateX(-50px);
     text-shadow: 1px 1px 10px gray;
   }
 }
