@@ -6,6 +6,8 @@ div{
   height: 100px;
 }
 p {
+  width: 20%;
+  height: 20%;
   color: gray;
   text-shadow: 1px 1px 10px black;
   font-size: 90px;
