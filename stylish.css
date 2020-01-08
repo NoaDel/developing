@@ -11,7 +11,7 @@ p {
   animation-name: lul;
   animation-direction: normal;
   animation-iteration-count: infinite;
-  position: absolute;
+  position: relative;
 
 }
 p:nth-child(1) {
@@ -32,17 +32,17 @@ p:nth-child(4) {
     text-shadow: 1px 1px 10px gray;
 
       25% {
-        transform: translateX(50px);
+        transform: translateX(5%);
         text-shadow: 1px 1px 10px black;
 
       }
         75% {
-          transform: translateX(50px);
+          transform: translateX(5%);
           text-shadow: 1px 1px 10px black;
 
         }
   to{
-    transform: translateX(-50px);
+    transform: translateX(-10%);
     text-shadow: 1px 1px 10px gray;
   }
 }
