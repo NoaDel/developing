@@ -3,13 +3,14 @@ body {
 }
 p {
   color: gray;
-  text-shadow: 8px 8px black;
+  text-shadow: 1px 1px 10px black;
   font-size: 90px;
   float: left;
   margin: 30px;
   animation-duration: 3s;
-  animation-name: lul;
+  animation-name: "lul";
   animation-direction: normal;
+  animation-iteration-count: infinite;
 
 }
 p:nth-child(1) {
@@ -24,18 +25,18 @@ p:nth-child(3) {
 p:nth-child(4) {
   animation-delay: .6s;
 }
-@@keyframes lul {
+@keyframes lul {
   from{
     left: 0px;
-    text-shadow: 8px 8px gray;
+    text-shadow: 1px 1px 10px gray;
 
   50% {
     left: 50px;
-  text-shadow: 8px 8px black;
+    text-shadow: 1px 1px 10px gray;
 
   }
   to{
     left: 0px;
-    text-shadow: 8px 8px gray;
+    text-shadow: 1px 1px 10px gray;
   }
 }
