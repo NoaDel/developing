@@ -11,6 +11,7 @@ p {
   animation-name: lul;
   animation-direction: normal;
   animation-iteration-count: infinite;
+  position: absolute;
 
 }
 p:nth-child(1) {
@@ -30,11 +31,16 @@ p:nth-child(4) {
     left: 0px;
     text-shadow: 1px 1px 10px gray;
 
-  50% {
-    left: 50px;
-    text-shadow: 1px 1px 10px black;
+      25% {
+        left: 50px;
+        text-shadow: 1px 1px 10px black;
 
-  }
+      }
+        75% {
+          left: 50px;
+          text-shadow: 1px 1px 10px black;
+
+        }
   to{
     left: 0px;
     text-shadow: 1px 1px 10px gray;
