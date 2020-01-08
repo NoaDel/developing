@@ -36,17 +36,17 @@ p:nth-child(4) {
     text-shadow: 1px 1px 10px gray;
 
       25% {
-        transform: translateX(5%);
+        transform: translateX(100px);
         text-shadow: 1px 1px 10px black;
 
       }
         75% {
-          transform: translateX(5%);
+          transform: translateX(100px);
           text-shadow: 1px 1px 10px black;
 
         }
   to{
-    transform: translateX(-10%);
+    transform: translateX(-200px);
     text-shadow: 1px 1px 10px gray;
   }
 }
