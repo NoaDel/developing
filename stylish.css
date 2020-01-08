@@ -2,5 +2,7 @@ body {
   background-color: gray;
 }
 p {
-  color: red;
+  color: gray;
+  text-shadow: 2px 2px black;
+  font-size: 50px;
 }
