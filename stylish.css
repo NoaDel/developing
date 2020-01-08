@@ -17,13 +17,13 @@ p:nth-child(1) {
   animation-delay: 0s;
 }
 p:nth-child(2) {
-  animation-delay: .2s;
+  animation-delay: .5s;
 }
 p:nth-child(3) {
-  animation-delay: .4s;
+  animation-delay: 1s;
 }
 p:nth-child(4) {
-  animation-delay: .6s;
+  animation-delay: 1.5s;
 }
 @keyframes lul {
   from{
@@ -32,7 +32,7 @@ p:nth-child(4) {
 
   50% {
     left: 50px;
-    text-shadow: 1px 1px 10px gray;
+    text-shadow: 1px 1px 10px black;
 
   }
   to{
