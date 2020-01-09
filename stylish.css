@@ -38,6 +38,7 @@ svg{
   border-radius: 100%;
   animation-duration: 8s;
   animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 .blob:nth-child(1){
   animation-name: firstBlob;
