@@ -33,6 +33,7 @@ svg{
   color: white;
   background-color: red;
   text-align: center;
+  line-height: 100px;
   font-size: 20px;
   border-radius: 100%;
 }
