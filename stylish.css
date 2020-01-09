@@ -32,21 +32,23 @@ svg{
   height: 100px;
   color: white;
   background-color: red;
+  text-align: center;
+  font-size: 20px;
   border-radius: 100%;
 }
 .blob:nth-child(1){
-  left: 500px;
-  top: 500px;
+  left: 200px;
+  top: 200px;
 }
 .blob:nth-child(2){
-  left: 500px;
-  top: 600px;
+  left: 200px;
+  top: 300px;
 }
 .blob:nth-child(3){
-  left: 600px;
-  top: 500px;
+  left: 300px;
+  top: 200px;
 }
 .blob:nth-child(4){
-  left: 600px;
-  top: 600px;
+  left: 300px;
+  top: 300px;
 }
