@@ -40,6 +40,13 @@ svg{
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
+.wall{
+  width:20px;
+  height: 500px;
+  left: 300px;
+  top: 200px;
+  background-color: red;
+}
 .blob:nth-child(1){
   animation-name: firstBlob;
   left: 200px;
