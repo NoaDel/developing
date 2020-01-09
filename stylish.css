@@ -18,6 +18,15 @@ p {
   position: absolute;
   height: 500px;
 }
+.blob {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100px;
+  height: 100px;
+  color: red;
+  filter: url('#gooey');
+}
 p:nth-child(1) {
   animation-delay: 0s;
   left: 300px;
