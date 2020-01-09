@@ -37,11 +37,11 @@ p:nth-child(4) {
 @keyframes lul {
   from{
     transform-origin: center;
-    text-shadow: 1px 1px 10px gray;
+    opacity: 0;
   }
         to {
           transform: translateX(300px);
-          text-shadow: 1px 1px 10px black;
+          opacity: 1;
 
         }
 }
