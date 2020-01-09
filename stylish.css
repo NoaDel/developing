@@ -37,6 +37,10 @@ svg{
   font-size: 20px;
   border-radius: 100%;
 }
+.blob:hover{
+  background-color: purple;
+  transform: scale(2);
+}
 .blob:nth-child(1){
   left: 200px;
   top: 200px;
