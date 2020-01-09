@@ -16,27 +16,18 @@
   <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
   <defs>
     <filter id="gooey">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="3" />
-
-    </filter>
+  <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+  <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+  <feBlend in="SourceGraphic" in2="goo" />
+</filter>
 
   </defs>
 </svg>
-<div class="blob">
-
-</div>
-  <h1>Welcome to the Thunder Dome!</h1>
-  <div>
-  <p>J</p>
-  <p>O</p>
-  <p>H</p>
-  <p>N</p>
-</div>
-<div>
-  <p>C</p>
-  <p>E</p>
-  <p>N</p>
-  <p>A</p>
+<div class="blobbing">
+<div class="blob">1</div>
+<div class="blob">2</div>
+<div class="blob">3</div>
+<div class="blob">4</div>
 </div>
 </body>
 </html>
