@@ -36,24 +36,73 @@ svg{
   line-height: 100px;
   font-size: 20px;
   border-radius: 100%;
-}
-.blob:hover{
-  background-color: purple;
-  transform: scale(2);
+  animation-duration: 2s;
 }
 .blob:nth-child(1){
+  animation-name: firstBlob;
   left: 200px;
   top: 200px;
 }
 .blob:nth-child(2){
+  animation-name: secondBlob;
   left: 200px;
-  top: 300px;
+  top: 400px;
 }
 .blob:nth-child(3){
-  left: 300px;
+  animation-name: thirdBlob;
+  left: 400px;
   top: 200px;
 }
 .blob:nth-child(4){
-  left: 300px;
-  top: 300px;
+  animation-name: fourthBlob;
+  left: 400px;
+  top: 400px;
+}
+@keyframes firstBlob {
+  from {
+  }
+  50%{
+      transform: translateX(200px);
+
+  }
+  to {
+      transform: translateY(200px);
+
+  }
+}
+@keyframes secondBlob {
+  from {
+  }
+  50%{
+      transform: translateX(200px);
+
+  }
+  to {
+      transform: translateY(-200px);
+
+  }
+}
+@keyframes thirdBlob {
+  from {
+  }
+  50%{
+      transform: translateX(-200px);
+
+  }
+  to {
+      transform: translateY(200px);
+
+  }
+}
+@keyframes fourthBlob {
+  from {
+  }
+  50%{
+      transform: translateX(-200px);
+
+  }
+  to {
+      transform: translateY(-200px);
+
+  }
 }
