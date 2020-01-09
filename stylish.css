@@ -46,6 +46,8 @@ svg{
   left: 300px;
   top: 200px;
   background-color: red;
+  border-radius: 100%;
+  position: absolute;
 }
 .blob:nth-child(1){
   animation-name: firstBlob;
