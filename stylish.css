@@ -24,7 +24,7 @@ p {
   top: 50%;
   width: 100px;
   height: 100px;
-  color: red;
+  background-color: red;
   filter: url('#gooey');
 }
 p:nth-child(1) {
